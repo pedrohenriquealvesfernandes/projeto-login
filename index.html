@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <link rel="stylesheet" href="/estilos/mediqueries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para poder acessar sua conta e fazer as configurações no seu ambiente.</p>
+                <form action="login.js" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="ilogin" placeholder="E-mail" autocomplete="email" required maxlength="40">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="8" maxlength="24">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input id="bentrar" type="submit" value="Entrar">
+                    <a class="botao" href="esqueci.html">
+                        Esqueci a senha <i class="material-icons">mail</i>
+                    </a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
