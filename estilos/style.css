@@ -48,7 +48,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: #087AA3 url(/imagens/centrobrasil.jpg) center no-repeat;
+    background: #087AA3 url(../imagens/centrobrasil.jpg) center no-repeat;
     background-size: cover;
     height: 200px;
 }
