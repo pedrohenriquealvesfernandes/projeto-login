@@ -1,13 +1,14 @@
 <h1 align="center"><strong>Projeto-Login</strong><h1>
 
+
+<img src="./imagens/celular.png" alt="Celular imagem">
+<img src="./imagens/tablet.png" alt="Tablet imagem">
 <div align="center">
-    <img src="./imagens/celular.png" alt="Celular imagem" width="30%" height="450px">
-    <img src="./imagens/tablet.png" alt="Tablet imagem" width="69%" height="450px">
     <img src="./imagens/desktop.png" alt="Desktop imagem">
 </div> <br>
 
 # **Sobre o Projeto**
-Projeto-Login disponibilizado pelo [Curso em vídeo](https://www.youtube.com/@CursoemVideo) feito utilizando responsividade, position, mobile first. <br><br> 
+<strong>Projeto-Login</strong> disponibilizado por [Curso em vídeo](https://www.youtube.com/@CursoemVideo) feito utilizando responsividade, position, mobile first. <br><br> 
   
 
 # **Tecnologias**
